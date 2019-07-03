@@ -1,0 +1,155 @@
+Actor: Johnny Depp
+
+Birthday: 1963-06-09
+
+Gender: Male
+
+Country: United States
+
+URL: http://www.tvmaze.com/people/52302/johnny-depp
+------------------------------------------------------------
+
+Show: Family Guy
+
+Genre(s): Comedy, Family
+
+Rating: 7.8
+
+Network: FOX
+
+Summary: <p><b>Family Guy</b> follows Peter Griffin the endearingly ignorant dad, and his hilariously offbeat family of middle-class New Englanders in Quahog, RI. Lois is Peter's wife, a stay-at-home mom with no patience for her family's antics. Then there are their kids: 18-year-old Meg is an outcast at school and the Griffin family punching bag; 13-year-old Chris is a socially awkward teen who doesn't have a clue about the opposite sex; and one-year-old Stewie is a diabolically clever baby whose burgeoning sexuality is very much a work in progress. Rounding out the Griffin household is Brian the family dog and a ladies' man who is one step away from AA.</p>
+------------------------------------------------------------
+
+Actor: Andy Griffith
+
+Birthday: 1926-06-01
+
+Gender: Male
+
+Country: United States
+
+URL: http://www.tvmaze.com/people/57542/andy-griffith
+------------------------------------------------------------
+
+Actor: Viola Davis
+
+Birthday: 1965-08-11
+
+Gender: Female
+
+Country: United States
+
+URL: http://www.tvmaze.com/people/7182/viola-davis
+------------------------------------------------------------
+
+Actor: Jackie Chan
+
+Birthday: 1954-04-07
+
+Gender: Male
+
+Country: Hong Kong
+
+URL: http://www.tvmaze.com/people/91063/jackie-chan
+------------------------------------------------------------
+
+Actor: Jackie Chan
+
+Birthday: 1954-04-07
+
+Gender: Male
+
+Country: Hong Kong
+
+URL: http://www.tvmaze.com/people/91063/jackie-chan
+------------------------------------------------------------
+
+Actor: Jackie Chan
+
+Birthday: 1954-04-07
+
+Gender: Male
+
+Country: Hong Kong
+
+URL: http://www.tvmaze.com/people/91063/jackie-chan
+------------------------------------------------------------
+
+Show: How to Get Away with Murder
+
+Genre(s): Drama, Thriller, Legal
+
+Rating: 7.6
+
+Network: ABC
+
+Summary: <p>The brilliant, charismatic and seductive Professor Annalise Keating gets entangled with four law students from her class, <b>How to Get Away with Murder</b>. Little do they know that they will have to apply what they learned to real life, in this masterful, sexy, suspense-driven legal thriller.</p>
+------------------------------------------------------------
+
+Movie Title: Prisoners
+
+Release Year: 2013
+
+IMBD Rating: undefined
+
+Country: USA
+
+Language: English
+
+Plot: When Keller Dover's daughter and her friend go missing, he takes matters into his own hands as the police pursue multiple leads and the pressure mounts.
+
+Actors: Hugh Jackman, Jake Gyllenhaal, Viola Davis, Maria Bello
+------------------------------------------------------------
+
+Movie Title: Spiderman
+
+Release Year: 1990
+
+IMBD Rating: undefined
+
+Country: Switzerland
+
+Language: German
+
+Plot: N/A
+
+Actors: N/A
+------------------------------------------------------------
+
+Actor: Hugh Jackman
+
+Birthday: 1968-10-12
+
+Gender: Male
+
+Country: Australia
+
+URL: http://www.tvmaze.com/people/63981/hugh-jackman
+------------------------------------------------------------
+
+Show: The Simpsons
+
+Genre(s): Comedy, Family
+
+Rating: 8.4
+
+Network: FOX
+
+Summary: <p><b>The Simpsons</b> is the longest running scripted show in US television history. It captures the adventures of Homer, Marge, Maggie, Bart and Lisa who are living in a fictional town called Springfield.</p>
+------------------------------------------------------------
+
+Movie Title: Prisoners
+
+Release Year: 2013
+
+IMBD Rating: undefined
+
+Country: USA
+
+Language: English
+
+Plot: When Keller Dover's daughter and her friend go missing, he takes matters into his own hands as the police pursue multiple leads and the pressure mounts.
+
+Actors: Hugh Jackman, Jake Gyllenhaal, Viola Davis, Maria Bello
+------------------------------------------------------------
+
