@@ -73,7 +73,7 @@ var KEYS = function() {
         var movieData = [
           "Movie Title: " + jsonData.Title,
          "Release Year: " + jsonData.Year,
-          "IMBD Rating: " + jsonData.Ratings.imdbRating,
+          "IMBD Rating: " + jsonData.imdbRating,
          "Country: " + jsonData.Country,
           "Language: " + jsonData.Language,
        "Plot: " + jsonData.Plot,
