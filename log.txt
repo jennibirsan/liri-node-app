@@ -168,3 +168,47 @@ Plot: When Keller Dover's daughter and her friend go missing, he takes matters i
 Actors: Hugh Jackman, Jake Gyllenhaal, Viola Davis, Maria Bello
 ------------------------------------------------------------
 
+Actor: Brad Pitt
+
+Birthday: 1963-12-18
+
+Gender: Male
+
+Country: United States
+
+URL: http://www.tvmaze.com/people/45790/brad-pitt
+------------------------------------------------------------
+
+Movie Title: Prisoners
+
+Release Year: 2013
+
+IMBD Rating: 8.1
+
+Country: USA
+
+Language: English
+
+Plot: When Keller Dover's daughter and her friend go missing, he takes matters into his own hands as the police pursue multiple leads and the pressure mounts.
+
+Actors: Hugh Jackman, Jake Gyllenhaal, Viola Davis, Maria Bello
+------------------------------------------------------------
+
+Show: How to Get Away with Murder
+
+Genre(s): Drama, Thriller, Legal
+
+Rating: 7.6
+
+Network: ABC
+
+Summary: <p>The brilliant, charismatic and seductive Professor Annalise Keating gets entangled with four law students from her class, <b>How to Get Away with Murder</b>. Little do they know that they will have to apply what they learned to real life, in this masterful, sexy, suspense-driven legal thriller.</p>
+------------------------------------------------------------
+
+Name of Venue: undefined
+
+Location of Venue: undefined
+
+Date of Event: undefined
+------------------------------------------------------------
+
