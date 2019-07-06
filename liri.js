@@ -19,8 +19,8 @@ var divider = "\n------------------------------------------------------------\n\
 // SHOW SEARCH
 
 // findShow takes in the name of a tv show and searches the tvmaze API
-var findShow = function (show) {
-  var URL = "http://api.tvmaze.com/singlesearch/shows?q=" + show;
+var findShow = function () {
+  var URL = "http://api.tvmaze.com/singlesearch/shows?q=" + userSearch;
 
   axios.get(URL).then(function (response) {
     // Place the response.data into a variable, jsonData.
@@ -45,8 +45,8 @@ var findShow = function (show) {
 
 // ACTOR SEARCH
 
-var findActor = function (actor) {
-  var URL = "http://api.tvmaze.com/search/people?q=" + actor;
+var findActor = function () {
+  var URL = "http://api.tvmaze.com/search/people?q=" + userSearch;
   axios.get(URL).then(function (response) {
     // Place the response.data into a variable, jsonData.
     var jsonData = response.data;
@@ -70,8 +70,11 @@ var findActor = function (actor) {
 }
 // MOVIE SEARCH
 
-var findMovie = function (movie) {
-  var URL = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy"
+var findMovie = function () {
+  if (!userSearch) {
+    userSearch = 'Mr. Nobody';
+  }
+  var URL = "http://www.omdbapi.com/?t=" + userSearch + "&y=&plot=short&apikey=trilogy"
   axios.get(URL).then(function (response) {
     // Place the response.data into a variable, jsonData.
     var jsonData = response.data;
@@ -96,20 +99,20 @@ var findMovie = function (movie) {
 };
 
 // CONCERT SEARCH
-var findConcert = function (artist) {
+var findConcert = function () {
   console.log("artist")
-  var URL = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp"
+  var URL = "https://rest.bandsintown.com/artists/" + userSearch + "/events?app_id=codingbootcamp"
   axios.get(URL).then(function (response) {
     // Place the response.data into a variable, jsonData.
     var jsonData = response.data;
-for (i = 0; i < jsonData.length; i++) {
-  var concertData = [
-    "Name of Venue: " + jsonData[i].venue.name,
-    "Location of Venue: " + jsonData[i].venue.city + ", " + jsonData[i].venue.country,
-    "Date of Event: " + moment(jsonData[i].datetime).format("MM/DD/YY"),
-  ].join("\n\n");
-  console.log(concertData)
-}
+    for (i = 0; i < jsonData.length; i++) {
+      var concertData = [
+        "Name of Venue: " + jsonData[i].venue.name,
+        "Location of Venue: " + jsonData[i].venue.city + ", " + jsonData[i].venue.country,
+        "Date of Event: " + moment(jsonData[i].datetime).format("MM/DD/YY"),
+      ].join("\n\n");
+      console.log(concertData)
+    }
     // Append concertData and the divider to log.txt, print concertData to the console
     fs.appendFile("log.txt", concertData + divider, function (err) {
       if (err) throw err;
@@ -122,7 +125,7 @@ for (i = 0; i < jsonData.length; i++) {
 function findSong() {
   console.log("find song!")
   if (!userSearch) {
-    userSearch = 'Tik Tok';
+    userSearch = 'The Sign';
   }
   spotify.search({ type: 'track', query: userSearch }, function (err, data) {
     if (err) {
@@ -144,31 +147,48 @@ function findSong() {
   });
 }
 
+function doWhatItSays() {
+  fs.readFile("random.txt", "utf8", function (error, data) {
+
+    // If the code experiences any errors it will log the error to the console.
+    if (error) {
+      return console.log(error);
+    }
+    // Then split it by commas (to make it more readable)
+    var array = data.split(", ");
+    console.log(array);
+    command = array[0];
+    userSearch = array[1];
+    switchCommand();
+  });
+}
 // Switch command for user when searching for a show, actor, movie, song, or concert.
 
 function switchCommand() {
   switch (command) {
     case "show":
       console.log("User is searching for a", command, "called", userSearch);
-      findShow(userSearch);
+      findShow();
       break;
     case "actor":
       console.log("User is searching for an", command, "by the name of", userSearch);
-      findActor(userSearch);
+      findActor();
       break;
     case "movie":
       console.log("User is searching for a", command, "by the name of", userSearch);
-      findMovie(userSearch);
+      findMovie();
       break;
     case "song":
       console.log("User is searching for a", command, "by the name of", userSearch);
-      findSong(userSearch);
+      findSong();
       break;
     case "artist":
       console.log("User is searching for an", command, "by the name of", userSearch);
-      findConcert(userSearch);
+      findConcert();
       break;
-
+    case "random":
+      doWhatItSays();
+      break;
   }
 }
 switchCommand();
