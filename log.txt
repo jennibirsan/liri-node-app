@@ -434,3 +434,88 @@ Location of Venue: Nashville, United States
 Date of Event: 10/12/19
 ------------------------------------------------------------
 
+Actor: Nina Dobrev
+
+Birthday: 1989-01-09
+
+Gender: Female
+
+Country: Bulgaria
+
+URL: http://www.tvmaze.com/people/8415/nina-dobrev
+------------------------------------------------------------
+
+Movie Title: Charlie and the Chocolate Factory
+
+Release Year: 2005
+
+IMBD Rating: 6.6
+
+Country: USA, UK, Australia
+
+Language: English
+
+Plot: A young boy wins a tour through the most magnificent chocolate factory in the world, led by the world's most unusual candy maker.
+
+Actors: Johnny Depp, Freddie Highmore, David Kelly, Helena Bonham Carter
+------------------------------------------------------------
+
+Movie Title: Mr. Nobody
+
+Release Year: 2009
+
+IMBD Rating: 7.8
+
+Country: Belgium, Germany, Canada, France, USA, UK
+
+Language: English, Mohawk
+
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+------------------------------------------------------------
+
+Name of Venue: American Music Festival
+
+Location of Venue: Virginia Beach, United States
+
+Date of Event: 08/31/19
+------------------------------------------------------------
+
+Movie Title: Prisoners
+
+Release Year: 2013
+
+IMBD Rating: 8.1
+
+Country: USA
+
+Language: English
+
+Plot: When Keller Dover's daughter and her friend go missing, he takes matters into his own hands as the police pursue multiple leads and the pressure mounts.
+
+Actors: Hugh Jackman, Jake Gyllenhaal, Viola Davis, Maria Bello
+------------------------------------------------------------
+
+Show: How to Get Away with Murder
+
+Genre(s): Drama, Thriller, Legal
+
+Rating: 7.6
+
+Network: ABC
+
+Summary: <p>The brilliant, charismatic and seductive Professor Annalise Keating gets entangled with four law students from her class, <b>How to Get Away with Murder</b>. Little do they know that they will have to apply what they learned to real life, in this masterful, sexy, suspense-driven legal thriller.</p>
+------------------------------------------------------------
+
+Actor: Brad Pitt
+
+Birthday: 1963-12-18
+
+Gender: Male
+
+Country: United States
+
+URL: http://www.tvmaze.com/people/45790/brad-pitt
+------------------------------------------------------------
+

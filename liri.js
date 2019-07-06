@@ -147,6 +147,7 @@ function findSong() {
   });
 }
 
+// DO WHAT IT SAYS FUNCTION -- PULLING IT FROM RANDOM.TXT
 function doWhatItSays() {
   fs.readFile("random.txt", "utf8", function (error, data) {
 
